@@ -1,5 +1,4 @@
-﻿using Guests;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,6 +6,7 @@ using System.Threading.Tasks;
 using Hotels;
 using Rooms;
 using Reservations;
+using Guests;
 
 namespace Hotel_Reservation_System
 {
@@ -270,7 +270,6 @@ namespace Hotel_Reservation_System
             }
 
             DateTime checkInDate, checkOutDate;
-
             do
             {
                 Console.Write("Enter check-in date (MM/DD/YYYY): ");

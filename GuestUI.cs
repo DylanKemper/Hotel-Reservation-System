@@ -36,7 +36,6 @@ namespace Hotel_Reservation_System
                 }
             }
             while (!regex.IsMatch(name));
-
             return name;
         }
     }
